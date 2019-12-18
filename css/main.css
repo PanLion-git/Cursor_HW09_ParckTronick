@@ -368,7 +368,7 @@ button {
 .video {
     margin-top: 30px;
 
-    /* display: none; */
+    display: none;
 }
 
 .video .h2 {
