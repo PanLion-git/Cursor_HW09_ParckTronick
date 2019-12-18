@@ -1,0 +1,257 @@
+/* ******************* */
+/* carousel ********** */
+/* ******************* */
+
+
+.carousel-inner {
+  /* background-color: lightslategray; */
+  color: grey;
+  max-height: 400px;
+  min-height: 400px;
+  /* border: 1px solid red; */
+}
+
+.carousel-indicators .active {
+  background-color: #e2534b;
+}
+
+
+.carousel-item {
+  min-height: 300px;
+}
+
+.carousel-item-content {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  margin: 30px;
+  padding: 30px;
+  /* width: 470px; */
+  /* height: 71px; */
+  border-radius: 5px;
+  color: white;
+  /* background-color: #272323; */
+
+}
+
+.carousel-item-content-title {
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  font-weight: 800;
+  text-align: center;
+
+  padding-left: 30px;
+  padding-right: 30px;
+
+  text-transform: uppercase;
+
+  border-radius: 5px;
+  /* color: chartreuse; */
+  background-color: #e2534b;
+
+}
+
+.carousel-item-content-info {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+
+  padding-left: 30px;
+  padding-right: 30px;
+
+  border-radius: 5px;
+  background-color: #272323;
+}
+
+
+.carousel-indicators {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: flex;
+}
+.carousel-control-prev {
+  /* justify-content: flex-start; */
+}
+.carousel-control-next {
+    /* justify-content: flex-end; */
+}
+
+.slide-right,
+.slide-left {
+  /* background-color: #e2534b  !important; */
+  padding: 10px;
+  border-radius: 5px;
+  /* width: 10px; */
+}
+
+.move-down {
+  display: none;
+}
+
+.client-review-photo {
+  /* border: 1px solid red; */
+}
+.client-review-photo-this {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+
+  border: 5px solid #ffdc00;
+}
+
+.client-review-text {
+  margin-bottom: 25px;
+  color: grey;
+  font-size: 16px;
+  /* border: 5px solid yellow; */
+  max-height: 200px;
+  overflow: auto; 
+}
+
+.client-photo {
+  /* border: 1px solid rgb(3, 109, 12); */
+}
+.client-photo-this {
+  display: block;
+  /* max-width: 100%;
+  max-height: 100%; */
+  max-height: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+  /* padding: 10px; */
+  /* border: 1px solid rgba(3, 109, 12, 0.795); */
+}
+.client-name-city {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  /* border: 1px solid rgb(3, 21, 109); */
+}
+.client-name {
+  color: black;
+  font-size: 16px;
+  font-weight: 900;
+}
+.client-city {
+  color: grey;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+
+/* *********** */
+/* section - 3 */
+/* *********** */
+
+
+.intro {
+  /* width: 1170px;
+  height: 100px; */
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: #ececec;
+}
+
+
+.some-of-our {
+  font-size: 30px;
+  line-height: 36px;
+  color: #7f8c8c;
+  /* font-family: "Open Sans"; */
+  font-weight: 600;
+}
+
+.Ut {
+  /* width: 842px;
+  height: 14px; */
+  font-size: 13px;
+  line-height: 21px;
+  color: #777777;
+  /* font-family: "Open Sans"; */
+  font-weight: 400;
+}
+
+
+.container-button {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-view-more {
+  width: 200px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: #e2534b;
+}
+
+
+/* ******************** */
+/* section - 4 SERVICES */
+/* ******************** */
+
+
+.services-box {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+}
+.service-icon {
+  margin-top: 30px;
+  color: green;
+  font-size: 75px;
+  font-size: 60px;
+  line-height: 7px;
+  color: #62bdbd;
+}
+.service-title {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7f8c8c;
+  font-weight: 800;
+  text-align: center;
+}
+.service-info {
+  margin-top: 35px;
+  width: 236px;
+  /* height: 56px; */
+  font-size: 13px;
+  line-height: 21px;
+  color: #777777;
+  font-weight: 400;
+  text-align: center;
+  max-height: 45px;
+  overflow: hidden;
+}
+.services-box .container-button {
+  transform: translateY(15px);
+}
+.btn-info {
+  background-color: #62bdbd;
+}
+.services-box:hover {
+  background-color: #ffffff;
+}
+.services-box:hover .service-icon {
+  color: #e2534b;
+}
+.services-box:hover .container-button .btn-info {
+  background-color: #e2534b;
+}

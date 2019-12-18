@@ -345,6 +345,8 @@ button {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    
+    align-items: center;
 }
 
 .reasons .reason .square img {
@@ -356,6 +358,7 @@ button {
 
 .reasons .reason .square img.width60 {
     width: 60px;
+    border: 1px solid red;
 }
 
 .reasons .reason .square img.width35 {
@@ -364,6 +367,8 @@ button {
 
 .video {
     margin-top: 30px;
+
+    /* display: none; */
 }
 
 .video .h2 {
@@ -431,6 +436,8 @@ button {
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
+
+    /* border: 1px solid red; */
 }
 
 .reviews .arrow-right {

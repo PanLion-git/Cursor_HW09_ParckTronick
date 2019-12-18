@@ -1,0 +1,116 @@
+
+.text-snipet {
+    /* display: none; */
+}
+.bg-adv1 {
+    width: 55px; height: 60px;
+    background: url('../img/_sprites.png') -185px -95px;
+}
+.bg-adv2 {
+    width: 55px; height: 60px;
+    background: url('../img/_sprites.png') -260px -95px;
+}
+.bg-adv3 {
+    width: 60px; height: 54px;
+    background: url('../img/_sprites.png') -335px -95px;
+}
+.bg-reason1 {
+    width: 55px; height: 34px;
+    background: url('../img/_sprites.png') -143px -186px;
+}
+.bg-reason2 {
+    width: 45px; height: 45px;
+    background: url('../img/_sprites.png') -78px -186px;
+}
+.bg-reason3 {
+    width: 39px; height: 57px;
+    background: url('../img/_sprites.png') -10px -254px;
+}
+.bg-reason4 {
+    width: 48px; height: 48px;
+    background: url('../img/_sprites.png') -10px -186px;
+}
+
+
+
+
+
+.bg-arrow-left {
+    width: 23px; height: 62px;
+    background: url('../img/_sprites.png') -10px -331px;
+
+    /* width: 48px; height: 48px;
+    background: url('../img/_sprites.png') -10px -186px; */
+
+    /* background-color: red; */
+    z-index: 999;
+}
+
+.bg-arrow-right {
+    width: 23px; height: 62px;
+    background: url('../img/_sprites.png') -53px -331px;
+}
+
+
+
+
+
+.bg-price-bg {
+    width: 155px; height: 156px;
+    background: url('../img/_sprites.png') -10px -10px;
+    /* background: url('../img/_sprites.png') 0px 0px; */
+    /* transform: rotate(15deg); */
+}
+
+.bg-logo {
+    width: 243px; height: 65px;
+    background: url('../img/_sprites.png') -185px -10px;
+}
+
+.bg-snipet {
+    width: 450px; height: 400px;
+    background: url('../img/_sprites.png') 0px 0px;
+}
+
+.bg-adv1 ,
+.bg-adv2 ,
+.bg-adv3 ,
+.bg-reason1 ,
+.bg-reason2 ,
+.bg-reason3 ,
+.bg-reason4 ,
+.bg-arrow-left ,
+.bg-arrow-right ,
+.bg-price-bg ,
+.bg-logo,
+.bg-snipet {
+    padding-bottom: 3px;
+    border-bottom: 3px solid yellow;
+    align-self: center;
+    justify-self: center;
+    box-sizing: content-box;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.reviews .wrapper .bg-arrow-left,
+.reviews .wrapper .bg-arrow-right {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.reviews .wrapper .bg-arrow-right {
+    right: 100px;
+}
+.reviews .wrapper .bg-arrow-left {
+    left: 100px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}

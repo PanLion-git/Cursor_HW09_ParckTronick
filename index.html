@@ -3,14 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+
+
+      <!-- Для роботи tooltip -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+      <!-- Для роботи tooltip -->
+
+
+
+
+<!-- Bootstrap CSS -->
+      <!-- Для роботи слайдера -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      
+      
+
+
+
     <link rel="stylesheet" href="css/screen.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/_sprites.css">
+    <link rel="stylesheet" href="css/_carousel.css">
 </head>
 <body>
+
+
+    <div class="text-snipet">
+        <div class="bg-snipet"></div><br>
+        <span class="bg-adv1"></span>
+        <span class="bg-adv2"> </span>
+        <span class="bg-adv3"> </span>
+        <div class="bg-reason1"> </div>
+        <div class="bg-reason2"> </div>
+        <div class="bg-reason3"> </div>
+        <div class="bg-reason4"> </div>
+        <div class="bg-arrow-left"> </div>
+        <div class="bg-arrow-right"> </div>
+        <div class="bg-price-bg"> </div>
+        <div class="bg-logo"> </div>
+    </div>
+
+
+
+
 <header>
     <div class="wrapper">
-        <img src="img/logo.png" alt="Logo Avtoparktronik" class="logo">
+        <!-- <img src="img/logo.png" alt="Logo Avtoparktronik" class="logo"> -->
+        <div class="bg-logo"> </div>
         <div class="right-block">
             <a href="tel:+380500704843" class="phone">+38 050 070 48 43</a>
             <button class="btn-call">Заказать звонок</button>
@@ -30,7 +74,8 @@
         </div>
         <div class="right-block">
             <img src="img/product.png" alt="" class="main-image">
-            <div class="price">
+            <!-- <div class="price"> -->
+            <div class="price bg-price-bg">
                 <div class="old-price">6999 грн.</div>
                 <div class="new-price">3999 грн.</div>
             </div>
@@ -105,7 +150,8 @@
         </h2>
         <div class="reason">
             <div class="square">
-                <img src="img/reason1.png" alt="" class="width60">
+                <!-- <img src="img/reason1.png" alt="" class="width60"> -->
+                <div class="width60 bg-reason1"></div>
             </div>
             <h4 class="h4">Быстрый и легкий монтаж</h4>
             <div class="reason-text">Зеркало с монитором крепится поверх штатного и не требует дополнительных установок.
@@ -113,7 +159,8 @@
         </div>
         <div class="reason">
             <div class="square">
-                <img src="img/reason2.png" alt="">
+                <!-- <img src="img/reason2.png" alt=""> -->
+                <div class="bg-reason2"></div>
             </div>
             <h4 class="h4">Стоимость</h4>
             <div class="reason-text">Цена видеопарктроника у дилера от 19990 грн.Наша цена всего 3990 грн.
@@ -121,7 +168,8 @@
         </div>
         <div class="reason">
             <div class="square">
-                <img src="img/reason3.png" alt="" class="width35">
+                <!-- <img src="img/reason3.png" alt="" class="width35"> -->
+                <div class="width35 bg-reason3"></div>
             </div>
             <h4 class="h4">Экономия</h4>
             <div class="reason-text">В случае наезда на препятствие при движении задним ходом, стоимость ремонта бампера
@@ -130,7 +178,8 @@
         </div>
         <div class="reason">
             <div class="square">
-                <img src="img/reason4.png" alt="">
+                <!-- <img src="img/reason4.png" alt=""> -->
+                <div class="bg-reason4"></div>
             </div>
             <h4 class="h4">Безопасность для пешеходов</h4>
             <div class="reason-text">при движении задним ходом (угол обзора нашей камеры 170 градусов)
@@ -164,10 +213,13 @@
         <button class="btn-order centred">Заказать</button>
     </div>
 </section>
+
 <section class="reviews">
     <div class="wrapper">
         <h2 class="h2">отзывы о нашем <span class="yellow">видеопарктронике</span></h2>
-        <img src="img/arrow-left.png" alt="" class="arrow-left">
+        <!-- <img src="img/arrow-left.png" alt="" class="arrow-left"> -->
+        <div class="arrow-left bg-arrow-left"></div>
+        <!-- <span class="arrow-left bg-arrow-left"></span> -->
         <div class="review-slider">
             <div class="slide">
                 <img src="img/review1.jpg" alt="" class="main-review-img">
@@ -190,9 +242,168 @@
                     Днепропетровск</i></div>
             </div>
         </div>
-        <img src="img/arrow-right.png" alt="" class="arrow-right">
+        <!-- <img src="img/arrow-right.png" alt="" class="arrow-right"> -->
+        <div class="arrow-right bg-arrow-right"></div>
+        <!-- <span class="arrow-right bg-arrow-right"></span> -->
     </div>
 </section>
+
+
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators move-down">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1" class="colored"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+    
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="container">
+                <div class="carousel-item-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 client-review-photo">
+                                <img src="/img/review1.jpg" alt="Review1" class="client-review-photo-this">
+                            </div>
+                            <div class="col-lg-8 client-review-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto voluptatum distinctio tempore
+                                perspiciatis
+                                dolor
+                                eveniet deserunt qui voluptate ea perferendis et quia, repellat illum laudantium velit
+                                accusantium ipsum,
+                                harum
+                                dolore. <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo et deleniti, sapiente aperiam sit
+                                praesentium cumque vitae. In adipisci impedit accusamus quae rem harum libero deleniti soluta
+                                possimus sit? Dolores!
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8">
+                            </div>
+                            <div class="col-lg-2 client-photo">
+                                <img src="/img/review1-ava.jpg" alt="Constantinius" class="client-photo-this">
+                            </div>
+                            <div class="col-lg-2 client-name-city">
+                                <div class="client-name">
+                                    Constantinius
+                                </div>
+                                <div class="client-city">
+                                    Constantinopol
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="container">
+                <div class="carousel-item-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 client-review-photo">
+                                <img src="/img/broken-car1.jpg" alt="Review1" class="client-review-photo-this">
+                            </div>
+                            <div class="col-lg-8 client-review-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam laudantium laborum ad suscipit dolores consectetur
+                                molestiae eveniet cupiditate sequi, delectus dolorum! Repellendus nemo nobis, consectetur perferendis eveniet
+                                asperiores doloremque magni!
+                                <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo quis ducimus ipsum similique dolorem
+                                repudiandae consequatur quod soluta perferendis hic unde doloribus, consequuntur placeat, neque esse error, mollitia
+                                consectetur!
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8">
+                            </div>
+                            <div class="col-lg-2 client-photo">
+                                <img src="/img/girl-in-car.jpg" alt="Constantinius" class="client-photo-this">
+                            </div>
+                            <div class="col-lg-2 client-name-city">
+                                <div class="client-name">
+                                    Serafima
+                                </div>
+                                <div class="client-city">
+                                    Jerusalim
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="carousel-item">
+            <div class="container">
+                <div class="carousel-item-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 client-review-photo">
+                                <img src="/img/broken-car2.jpg" alt="Review1" class="client-review-photo-this">
+                            </div>
+                            <div class="col-lg-8 client-review-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel deserunt maiores corporis explicabo. Officia tempore
+                                tempora impedit corrupti, eaque nisi quam. Accusamus tempore rerum deleniti reiciendis commodi delectus, id dicta?
+                                <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, tempore voluptate totam, quae ipsam mollitia
+                                pariatur est, perspiciatis eaque minus tempora nisi error iste beatae velit enim obcaecati voluptatibus rerum?
+                                <br>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem modi tenetur autem ea porro beatae fugit nemo, velit
+                                sapiente repellat recusandae. Sit in omnis magni. Maxime atque tempora beatae vero?
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8">
+                            </div>
+                            <div class="col-lg-2 client-photo">
+                                <img src="/img/girl-in-car.jpg" alt="Constantinius" class="client-photo-this">
+                            </div>
+                            <div class="col-lg-2 client-name-city">
+                                <div class="client-name">
+                                    Jesica
+                                </div>
+                                <div class="client-city">
+                                    New Jersey
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div> -->
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <!-- <img class="slide-left" src="./img/arrow-left.png" alt=""> -->
+        <span class="slide-left bg-arrow-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+    <!-- </div> -->
+
+    <!-- <div> -->
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <!-- <img class="slide-right" src="./img/arrow-right.png" alt=""> -->
+        <span class="slide-right bg-arrow-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    <!-- </div> -->
+  
+</div>
+
+
+
+
+
 <section class="delivery">
     <div class="wrapper">
         <h2 class="h2">Доставка и гарантии</h2>
@@ -204,13 +415,19 @@
         </ul>
         <p>Мы заботимся о своей репутации, клиенты для нас на первом месте!</p>
         <div class="advantages">
-            <div class="adv"><img src="img/adv1.png" alt="">
+            <div class="adv">
+                <!-- <img src="img/adv1.png" alt=""> -->
+                <div class="bg-adv1"> </div>
                 <div class="adv-title yellow">Оплата при получении</div>
             </div>
-            <div class="adv"><img src="img/adv2.png" alt="">
+            <div class="adv">
+                <!-- <img src="img/adv2.png" alt=""> -->
+                <div class="bg-adv2"> </div>
                 <div class="adv-title yellow">365 дней гарантии</div>
             </div>
-            <div class="adv"><img src="img/adv3.png" alt="">
+            <div class="adv">
+                <!-- <img src="img/adv3.png" alt=""> -->
+                <div class="bg-adv3"> </div>
                 <div class="adv-title yellow">Возврат денег в течение 14 дней</div>
             </div>
         </div>
@@ -248,7 +465,8 @@
             <img src="img/product-reverse.jpg" alt="">
             <span class="plus">+</span>
             <img src="img/gift-reverse.jpg" alt="">
-            <div class="price">
+            <!-- <div class="price"> -->
+            <div class="price bg-price-bg">
                 <div class="old-price">6999 грн.</div>
                 <div class="new-price">3999 грн.</div>
             </div>
@@ -311,5 +529,12 @@
         player.stopVideo();
     }
 </script>
+
+      <!-- Optional JavaScript -->
+<!-- Для роботи слайдера -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" ></script>
+
+      <!-- <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script> -->
+
 </body>
 </html>
