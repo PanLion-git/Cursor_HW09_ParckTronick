@@ -4,51 +4,51 @@
 }
 .bg-adv1 {
     width: 55px; height: 60px;
-    background: url('../img/_sprites.png') -185px -95px;
+    background: url('../img/sprites.png') -185px -95px;
 }
 .bg-adv2 {
     width: 55px; height: 60px;
-    background: url('../img/_sprites.png') -260px -95px;
+    background: url('../img/sprites.png') -260px -95px;
 }
 .bg-adv3 {
     width: 60px; height: 54px;
-    background: url('../img/_sprites.png') -335px -95px;
+    background: url('../img/sprites.png') -335px -95px;
 }
 .bg-reason1 {
     width: 55px; height: 34px;
-    background: url('../img/_sprites.png') -143px -186px;
+    background: url('../img/sprites.png') -143px -186px;
 }
 .bg-reason2 {
     width: 45px; height: 45px;
-    background: url('../img/_sprites.png') -78px -186px;
+    background: url('../img/sprites.png') -78px -186px;
 }
 .bg-reason3 {
     width: 39px; height: 57px;
-    background: url('../img/_sprites.png') -10px -254px;
+    background: url('../img/sprites.png') -10px -254px;
 }
 .bg-reason4 {
     width: 48px; height: 48px;
-    background: url('../img/_sprites.png') -10px -186px;
+    background: url('../img/sprites.png') -10px -186px;
 }
 .bg-arrow-left {
     width: 23px; height: 62px;
-    background: url('../img/_sprites.png') -10px -331px;
+    background: url('../img/sprites.png') -10px -331px;
 }
 .bg-arrow-right {
     width: 23px; height: 62px;
-    background: url('../img/_sprites.png') -53px -331px;
+    background: url('../img/sprites.png') -53px -331px;
 }
 .bg-price-bg {
     width: 155px; height: 156px;
-    background: url('../img/_sprites.png') -10px -10px;
+    background: url('../img/sprites.png') -10px -10px;
 }
 .bg-logo {
     width: 243px; height: 65px;
-    background: url('../img/_sprites.png') -185px -10px;
+    background: url('../img/sprites.png') -185px -10px;
 }
 .bg-snipet {
     width: 450px; height: 400px;
-    background: url('../img/_sprites.png') 0px 0px;
+    background: url('../img/sprites.png') 0px 0px;
 }
 
 .bg-adv1 ,
