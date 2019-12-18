@@ -1,6 +1,6 @@
 
 .text-snipet {
-    /* display: none; */
+    display: none;
 }
 .bg-adv1 {
     width: 55px; height: 60px;
@@ -30,43 +30,22 @@
     width: 48px; height: 48px;
     background: url('../img/_sprites.png') -10px -186px;
 }
-
-
-
-
-
 .bg-arrow-left {
     width: 23px; height: 62px;
     background: url('../img/_sprites.png') -10px -331px;
-
-    /* width: 48px; height: 48px;
-    background: url('../img/_sprites.png') -10px -186px; */
-
-    /* background-color: red; */
-    z-index: 999;
 }
-
 .bg-arrow-right {
     width: 23px; height: 62px;
     background: url('../img/_sprites.png') -53px -331px;
 }
-
-
-
-
-
 .bg-price-bg {
     width: 155px; height: 156px;
     background: url('../img/_sprites.png') -10px -10px;
-    /* background: url('../img/_sprites.png') 0px 0px; */
-    /* transform: rotate(15deg); */
 }
-
 .bg-logo {
     width: 243px; height: 65px;
     background: url('../img/_sprites.png') -185px -10px;
 }
-
 .bg-snipet {
     width: 450px; height: 400px;
     background: url('../img/_sprites.png') 0px 0px;
@@ -101,14 +80,12 @@
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
 }
-
 .reviews .wrapper .bg-arrow-right {
     right: 100px;
 }
 .reviews .wrapper .bg-arrow-left {
     left: 100px;
 }
-
 .price {
     display: flex;
     flex-direction: column;
