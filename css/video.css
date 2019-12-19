@@ -1,0 +1,30 @@
+.video {
+  display: none;
+}
+
+
+.how-this-work {
+  display: flex;
+  justify-content: center;
+}
+
+
+.how-this-work a {
+  text-decoration: none;
+  padding: 50px;
+}
+
+
+.how-this-work a:hover {
+  text-decoration: none;
+  /* background-color: #333; */
+  /* color: #9a9a9a; */
+  /* color: #8b8b8b; */
+  color: #000;
+  padding: 50px;
+    background-color: #efefefb3;
+  /* font-size: 72px; */
+  border-radius: 50%;
+  transition: all 1s;
+
+}
